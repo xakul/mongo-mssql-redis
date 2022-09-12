@@ -1,0 +1,10 @@
+﻿Base Contextin inherit edildiği DbContext tam olarak nedir ?
+
+Base Context içinde model builder var. O model builder ne işi yarıyor olabilir neleri implemente ediyor olabilirim ?
+
+BaseEntity diye bir class oluşturdum ama bir yerde kullanmadım. Kullanıcak olsam nasıl bir kullanım yapıyor olabilirdim ?
+
+Orders içinde Product ve Customer var. Relational verilerdeki one to one ve many to many prensiplerine güzel bir örnek aslında.
+
+Şu an her order tek bir kayıt halinde yapılıyor. 2 Ürünlü order yapmak şu an imkansız. Her kayıt yeni bir id ile atılıyor. Relational databasede bu sorunu çözmek için ne yapabiliriz ?
+

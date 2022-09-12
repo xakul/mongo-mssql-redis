@@ -1,0 +1,7 @@
+﻿interface tam olarak nedir ?
+
+neden interface kullanmamız gerekiyor olabilir ?
+
+ben hiç interface kullanmadan bu servisleri service dosyasında kendi başlarına da implemente edebilirdim bana ne gibi katkı sağladı ?
+
+bütün interfaceleri tek bir interfacede toplayıp kullansaydım ne olurdu ?

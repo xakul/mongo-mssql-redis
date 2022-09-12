@@ -10,9 +10,9 @@ namespace mockProject.Controllers
     [ApiController]
     public class CustomerController : ControllerBase
     {
+
         private readonly ICustomerService _customerService;
         private readonly IMapper _mapper;
-
         public CustomerController(ICustomerService customerService, IMapper mapper)
         {
             _customerService = customerService;
@@ -24,6 +24,7 @@ namespace mockProject.Controllers
         {
             var customerList = await _customerService.GetAllCustomers();
 
+            //Mapping işlemlerini burda yapıp beklediğimiz modele göre convert ediyoruz
             var customerListViewModel = _mapper.Map<List<CustomerViewModel>>(customerList);
 
             return Ok(customerListViewModel);

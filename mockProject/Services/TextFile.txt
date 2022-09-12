@@ -1,0 +1,2 @@
+﻿GetAllOrders methodunda include kullanıyoruz. include aslında inner join demektir. Relational db kullanılıcaksa join tiplerie hakim olmak gerekir
+

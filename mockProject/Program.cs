@@ -20,9 +20,14 @@ builder.Services.AddSwaggerGen();
 var connectionString = builder.Configuration.GetConnectionString("BaseContext");
 
 builder.Services.AddDbContext<BaseContext>(options => options.UseSqlServer(connectionString));
+
+
+// Bu iþlemin adý IoC üzerinden dependency injection yapmak. IoC nedir niye kullanýrýz ne iþimize yarar.
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddScoped<ICustomerService, CustomerService>();
+
+// Add singleton add scoped gibi iki farklý method gördük. Scoped bazlý eklemek nedir Singleton eklemek nedir
 builder.Services.AddSingleton<IMongoContext, BaseMongoContext>();
 
 var mappingConfig = new MapperConfiguration(mc =>

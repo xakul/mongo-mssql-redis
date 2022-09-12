@@ -1,0 +1,5 @@
+﻿Redis tam olarak nedir ?
+
+Redis yerine MongoDb kullanamaz mıyım ?
+
+Redis kullanırken ne gibi verileri redis cachede tutmam mantıklı neleri tutmam mantıksız olur ?
