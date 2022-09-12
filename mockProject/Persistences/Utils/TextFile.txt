@@ -1,0 +1,3 @@
+﻿Neden statik olarak tanımlıyoruz static ne demek oluyor ?
+
+Bu hangi design patternın örneği olabilir ?
